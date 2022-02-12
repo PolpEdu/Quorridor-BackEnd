@@ -25,6 +25,6 @@ io.on('connection', (client) => {
 
 
 
-http.listen((process.env.PORT||8000), function () {
-  console.log("listening in port "+ (process.env.PORT||8000));
-});
+http.listen(8000), function () {
+  console.log("listening in port "+ (8000));
+};
