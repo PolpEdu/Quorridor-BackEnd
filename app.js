@@ -4,7 +4,7 @@ const http = require('http').Server(app)
 const gameLogic = require('./game-logic')
 let io = require("socket.io")(http, {
   cors: {
-    origin: "https://localhost:3000.com",
+    origin: "https://quorridor.herokuapp.com/",
     methods: ["GET", "POST"],
     allowedHeaders: ["my-custom-header"],
     credentials: true
