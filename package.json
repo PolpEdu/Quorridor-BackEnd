@@ -6,7 +6,8 @@
   "scripts": {
     "test": "test",
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "cors": "^2.8.5",
